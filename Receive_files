@@ -1,0 +1,18 @@
+"""
+To receive any files
+using unix based system
+Requirements: wget
+"""
+
+echo "Enter file name followed by it's extension"
+read file_name
+while [ $file_name=true ]
+do
+        wget http://xxx.xxx.xx.xxx:1983/$file_name   #When we created the Sharing_sever we used port 1983
+            #http://(your_ip):port_no/$file_name
+        
+        echo "Enter file name followed by it's extension
+OR/ Press Control+ C to exit anytime"
+
+        read file_name
+done
