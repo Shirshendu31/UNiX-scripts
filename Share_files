@@ -1,9 +1,9 @@
-"""
+: '
 To start a server for sharing files
 via any unix basesd system
 (Terminal_on_MAC/ Termux_on_Android)
 
 **Requirements: python3 
-"""
+'
 
 python3 -m http.server 1983   #1983 is the port no, can be changed according to the user preferences
