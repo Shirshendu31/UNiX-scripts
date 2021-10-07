@@ -1,8 +1,8 @@
-:'
+: '
 Download YouTube videos via Terminal(MAC/Linux), Termux(Android)
 
-**Requirements: youtube-dl script'
-
+**Requirements: youtube-dl script
+'
 
 echo "Enter the link you want to Download:"
 
