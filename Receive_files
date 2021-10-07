@@ -1,9 +1,9 @@
-"""
+: '
 To receive any files
 using unix based system
 
 **Requirements: wget  #Make sure wget is installed
-"""
+'
 
 echo "Enter file name followed by it's extension"
 read file_name
