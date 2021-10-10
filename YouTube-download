@@ -1,8 +1,11 @@
 : '
 Download YouTube videos via Terminal(MAC/Linux), Termux(Android)
-
-**Requirements: youtube-dl script
 '
+cat << req
+#!Requirements: 
+               | youtube-dl script : to browse and download youtube videos |
+               | ffmpeg : to merge audio and video format |
+req
 
 echo "Enter the link you want to Download:"
 
@@ -21,7 +24,7 @@ then
 
 elif [ $format == av ]
 then
-        echo "Showing all available formats"
+        echo "Showing all available mp4 formats"
         youtube-dl -F $link | grep "mp4"
         echo "Enter Video format+Audio format:"
         read vaf
